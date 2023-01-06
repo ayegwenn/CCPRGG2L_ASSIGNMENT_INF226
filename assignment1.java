@@ -8,7 +8,7 @@ public class assignment1 {
 		Scanner scan = new Scanner(System.in);
 		
         // email
-		System.out.print("Enter student email: ");
+	System.out.print("Enter student email: ");
         String studentEmail = scan.nextLine();
 
         Pattern pattern = Pattern.compile("\\w+@students.national-u.edu.ph");
@@ -37,8 +37,8 @@ public class assignment1 {
             System.out.println("invalid cellphone number");
         }
         
-		// birthdate
-		System.out.print("Enter birthdate: ");
+	// birthdate
+	System.out.print("Enter birthdate: ");
         String birthdate = scan.nextLine();
 
         Pattern pattern3 = Pattern.compile("\\d{4}-\\d{2}-\\d{2}");
