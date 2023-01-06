@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class assignment1 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
 		
         // email
 	System.out.print("Enter student email: ");
